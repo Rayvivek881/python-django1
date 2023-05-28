@@ -24,4 +24,3 @@ class testModelSerializer(serializers.ModelSerializer):
   class Meta:
     model = testModel
     fields = [ 'Product', 'CreatedAt', 'UpdatedAt']
-  
